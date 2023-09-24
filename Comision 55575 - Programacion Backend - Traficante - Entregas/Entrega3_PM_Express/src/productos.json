@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "name": "iPhone 12",
+      "description": "Apple",
+      "code": 2020
+    },
+    {
+      "id": 2,
+      "name": "Galaxy S21",
+      "description": "Samsung",
+      "code": 2021
+    },
+    {
+      "id": 3,
+      "name": "MacBook Pro",
+      "description": "Apple",
+      "code": 2020
+    },
+    {
+      "id": 4,
+      "name": "Pixel 5",
+      "description": "Google",
+      "code": 2020
+    },
+    {
+      "id": 5,
+      "name": "PlayStation 5",
+      "description": "Sony",
+      "code": 2020
+    },
+    {
+      "id": 6,
+      "name": "Xbox Series X",
+      "description": "Microsoft",
+      "code": 2020
+    },
+    {
+      "id": 7,
+      "name": "AirPods Pro",
+      "description": "Apple",
+      "code": 2019
+    },
+    {
+      "id": 8,
+      "name": "Kindle Paperwhite",
+      "description": "Amazon",
+      "code": 2018
+    },
+    {
+      "id": 9,
+      "name": "Surface Pro 7",
+      "description": "Microsoft",
+      "code": 2019
+    },
+    {
+      "id": 10,
+      "name": "Fitbit Charge 4",
+      "description": "Fitbit",
+      "code": 2020
+    }
+  ]  
