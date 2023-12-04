@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lista de Carritos</title>
+</head>
+
+<body>
+    <h1>Lista de Carritos</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID del Carrito</th>
+                <th>Productos</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each carts}}
+            <tr>
+                <td>{{this._id}}</td>
+                <td>
+                    <ul>
+                        {{#each products}}
+                        <li>Producto ID: {{this._id}}, Cantidad: {{this.quantity}}</li>
+                        {{/each}}
+                    </ul>
+                </td>
+                <td>
+                    <a href="/api/carts/{{this._id}}">Ver detalles</a>
+                </td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+
+    <a href="/api/products"><button>Volver a Productos</button></a>
+    {{!-- <a href=><button>Check-out</button></a> --}}
+</body>
+
+</html>
