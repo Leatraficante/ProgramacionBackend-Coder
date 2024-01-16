@@ -1,0 +1,3 @@
+{"level":"error","message":"Cast to ObjectId failed for value \"purchase\" (type string) at path \"_id\" for model \"cart\""}
+{"level":"fatal","message":"prueba fatal"}
+{"level":"error","message":"prueba error"}
